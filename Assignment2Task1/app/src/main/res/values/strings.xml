@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Assignment2Task1</string>
+    <string name="lamp_on">BULB is ON</string>
+    <string name="lamp_off">BULB is OFF</string>
+    <string name="error_title">Camera error</string>
+    <string name="error_text">An error occured opening the device camera to activate flash.</string>
+</resources>

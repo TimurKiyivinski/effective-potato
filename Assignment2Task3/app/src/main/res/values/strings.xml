@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Assignment2Task3</string>
+    <string name="str_cups">Cups (240 ml)</string>
+    <string name="str_tbl_spoon">Tablespoons (15 ml)</string>
+    <string name="str_tea_spoon">Teaspoons (5 ml)</string>
+    <string name="str_calculate">Calculate</string>
+    <string name="str_convert">Show in Litres</string>
+    <string name="str_output">Total value is:</string>
+    <string name="str_output_error">Invalid input, minimum value is 0</string>
+</resources>

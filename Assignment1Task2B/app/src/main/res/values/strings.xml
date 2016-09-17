@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Assignment1Task2B</string>
+    <string name="person_name">Mike Wazowski</string>
+    <string name="programming_proficiency">Programming Proficiency</string>
+    <string name="programming_proficiency_text">Android, Java, C Sharp</string>
+    <string name="personality">Personality</string>
+    <string name="personality_text">Mike Wazowski is a proud and confident monster. Mike has a romantic side, shown by his dating Celia Mar, presumably the one Mike wants to tie the know with, and refers to as his <b>schmoopsie-poo</b> although he has a self-centered side.</string>
+</resources>
