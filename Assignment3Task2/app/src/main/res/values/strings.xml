@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Assignment3Task2</string>
+    <string name="create_profile">Tap Here To Create Profile</string>
+    <string name="name">Name</string>
+    <string name="profession">Profession</string>
+    <string name="contact">Contact</string>
+    <string name="confirm_profile">Create</string>
+    <string name="call">Tap here to call me</string>
+</resources>
