@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Assignment4Task1</string>
+    <string name="action_settings">Settings</string>
+    <string name="name">Name</string>
+    <string name="nationality">Nationality</string>
+    <string name="email">Email</string>
+    <string name="error">An error occured running the request</string>
+</resources>
