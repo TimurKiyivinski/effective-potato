@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/detailLayout" >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        app:srcCompat="@drawable/name_icon"
+        android:id="@+id/imageViewName" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        app:srcCompat="@drawable/phone_icon"
+        android:id="@+id/imageViewPhone"
+        android:layout_below="@+id/imageViewName"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        app:srcCompat="@drawable/email_icon"
+        android:id="@+id/imageViewEmail"
+        android:layout_below="@+id/imageViewPhone"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="@string/address_call"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/call_button"
+        android:layout_below="@+id/imageViewEmail"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text=""
+        android:id="@+id/address_email"
+        android:ems="10"
+        tools:context="com.swinburne.timur.assignment5task1.AddressDetailFragment"
+        android:inputType="textWebEmailAddress"
+        android:hint="@string/hint_email"
+        android:layout_below="@+id/imageViewPhone"
+        android:layout_toEndOf="@+id/imageViewPhone" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text=""
+        android:ems="10"
+        android:id="@+id/address_phone"
+        tools:context="com.swinburne.timur.assignment5task1.AddressDetailFragment"
+        android:inputType="phone"
+        android:hint="@string/hint_phone"
+        android:layout_below="@+id/imageViewName"
+        android:layout_toEndOf="@+id/imageViewName" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:inputType="textPersonName"
+        android:text=""
+        android:ems="10"
+        android:id="@+id/address_name"
+        tools:context="com.swinburne.timur.assignment5task1.AddressDetailFragment"
+        android:hint="@string/hint_name"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/imageViewName" />
+</RelativeLayout>
