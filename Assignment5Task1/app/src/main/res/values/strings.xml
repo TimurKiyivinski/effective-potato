@@ -2,7 +2,6 @@
     <string name="app_name">My Address Book</string>
     <string name="title_address_detail">Display Contact</string>
     <string name="title_address_create">Add Contact</string>
-    <string name="title_address_modify">Display Contact</string>
     <string name="address_call">Call</string>
     <string name="address_save">Save Contact</string>
     <string name="confirm_deletion_title">Confirm Deletion</string>

@@ -1,6 +1,5 @@
 package com.swinburne.timur.assignment5task1;
 
-import android.app.Activity;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -11,10 +10,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
-import android.util.Log;
 import android.view.LayoutInflater;
-import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
@@ -23,7 +19,6 @@ import android.widget.TextView;
 
 import com.swinburne.timur.assignment5task1.address.Address;
 import com.swinburne.timur.assignment5task1.address.AddressContent;
-import com.swinburne.timur.assignment5task1.address.AddressContract;
 
 import java.util.List;
 import java.util.Random;
