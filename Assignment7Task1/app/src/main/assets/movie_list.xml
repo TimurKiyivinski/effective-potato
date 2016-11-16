@@ -1,0 +1,39 @@
+<records>
+	<movie>
+		<title>Avengers: Age of Ultron</title>
+		<genre>Action, Adventure, Sci-Fi </genre>
+		<rating>8.5</rating>
+		<image_icon>avenger_icon</image_icon>
+		<image>avengers</image>
+		<cast>Robert Downey Jr., Chris Evans, Mark Ruffalo </cast>
+		<sypnosis>When Tony Stark tries to jumpstart a dormant peacekeeping program, things go awry and it is up to the Avengers to stop the villainous Ultron from enacting his terrible plans.</sypnosis>
+	</movie>
+	
+	<movie>
+		<title>IronMan 3</title>
+		<genre> Action, Adventure, Sci-Fi </genre>
+		<rating>7.3</rating>
+		<image_icon>ironman_icon</image_icon>
+		<image>ironman</image>
+		<cast> Robert Downey Jr., Guy Pearce, Gwyneth Paltrow</cast>
+		<sypnosis>When Tony Stark's world is torn apart by a formidable terrorist called the Mandarin, he starts an odyssey of rebuilding and retribution.</sypnosis>
+	</movie>
+	<movie>
+		<title>X-Men: Days of Future</title>
+		<genre> Action, Adventure, Sci-Fi </genre>
+		<rating>8.1</rating>
+		<image_icon>xmen_icon</image_icon>
+		<image>xmen</image>
+		<cast> Patrick Stewart, Ian McKellen, Hugh Jackman</cast>
+		<sypnosis>The X-Men send Wolverine to the past in a desperate effort to change history and prevent an event that results in doom for both humans and mutants.</sypnosis>
+	</movie>
+	<movie>
+		<title>Furious 7</title>
+		<genre>  Action, Crime, Thriller </genre>
+		<rating>8.0</rating>
+		<image_icon>furious_icon</image_icon>
+		<image>furious</image>
+		<cast> Patrick Stewart, Ian McKellen, Hugh Jackman</cast>
+		<sypnosis>Deckard Shaw seeks revenge against Dominic Toretto and his family for his comatose brother.</sypnosis>
+	</movie>
+</records>
