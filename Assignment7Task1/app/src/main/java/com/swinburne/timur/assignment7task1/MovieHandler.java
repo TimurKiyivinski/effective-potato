@@ -42,8 +42,8 @@ public class MovieHandler extends DefaultHandler {
             inImage = true;
         } else if (qName.equals("cast")) {
             inCast = true;
-        } else if (qName.equals("synopsis")) {
-            inSynopsis = true;
+        } else if (qName.equals("sypnosis")) {
+            inSynopsis = true; // Avoid being triggered by typo
         }
     }
 

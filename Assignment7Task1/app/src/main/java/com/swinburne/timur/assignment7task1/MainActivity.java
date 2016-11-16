@@ -3,6 +3,7 @@ package com.swinburne.timur.assignment7task1;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
 import android.widget.ListView;
 
 import org.xml.sax.SAXException;
@@ -15,7 +16,7 @@ import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.parsers.SAXParser;
 import javax.xml.parsers.SAXParserFactory;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,5 +47,10 @@ public class MainActivity extends AppCompatActivity {
         } catch (IOException e) {
             Log.e("SAX", "IOException caught");
         }
+    }
+
+    @Override
+    public void onClick(View v) {
+
     }
 }

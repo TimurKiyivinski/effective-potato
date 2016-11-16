@@ -1,6 +1,8 @@
 package com.swinburne.timur.assignment7task1;
 
+import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -64,7 +66,9 @@ class MovieAdapter extends BaseAdapter {
         rowView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Log.i("CLICK", movie.toString());
+                Intent intent = new Intent(context, ViewMovie.class);
+                intent.putExtra("movie", movie);
+                ((Activity) context).startActivityForResult(intent, 1);
             }
         });
 
