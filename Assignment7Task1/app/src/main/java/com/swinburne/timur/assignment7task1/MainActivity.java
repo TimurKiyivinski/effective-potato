@@ -3,6 +3,7 @@ package com.swinburne.timur.assignment7task1;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.widget.ListView;
 
 import org.xml.sax.SAXException;
 
@@ -33,6 +34,10 @@ public class MainActivity extends AppCompatActivity {
                Movie movie = i.next();
                 Log.i("Movie", movie.toString());
             }
+
+            // Create ListView
+            ListView listView = (ListView) findViewById(R.id.listMovies);
+            listView.setAdapter(new MovieAdapter(this, movies));
 
         } catch (ParserConfigurationException e) {
             Log.e("SAX", "ParserConfigurationException caught");
