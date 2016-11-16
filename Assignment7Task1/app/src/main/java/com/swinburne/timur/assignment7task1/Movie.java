@@ -1,24 +1,21 @@
 package com.swinburne.timur.assignment7task1;
 
 import java.io.Serializable;
-import java.util.ArrayList;
 
 public class Movie implements Serializable {
     private String title;
+    private String genre;
     private Double ratings;
     private String synopsis;
     private String icon;
     private String image;
-    private ArrayList<String> tags;
-    private ArrayList<String> casts;
+    private String casts;
 
     /**
      * Movie class to encapsulate movie data.
      * Class implements Serializable to enable easy bundling.
      */
     Movie () {
-        this.tags = new ArrayList<>();
-        this.casts = new ArrayList<>();
     }
 
     /**
@@ -27,6 +24,14 @@ public class Movie implements Serializable {
      */
     public void setTitle (String title) {
         this.title = title;
+    }
+
+    /**
+     *
+     * @param genre
+     */
+    public void setGenre (String genre) {
+        this.genre = genre;
     }
 
     /**
@@ -63,18 +68,10 @@ public class Movie implements Serializable {
 
     /**
      *
-     * @param tag
+     * @param casts
      */
-    public void addTag (String tag) {
-        this.tags.add(tag);
-    }
-
-    /**
-     *
-     * @param cast
-     */
-    public void addCast (String cast) {
-        this.casts.add(cast);
+    public void setCast (String casts) {
+        this.casts = casts;
     }
 
     /**
@@ -83,6 +80,14 @@ public class Movie implements Serializable {
      */
     public String getTitle () {
         return this.title;
+    }
+
+    /**
+     *
+     * @return
+     */
+    public String getGenre () {
+        return this.genre;
     }
 
     /**
@@ -121,15 +126,11 @@ public class Movie implements Serializable {
      *
      * @return
      */
-    public ArrayList<String> getTags () {
-        return this.tags;
+    public String getCast () {
+        return this.casts;
     }
 
-    /**
-     *
-     * @return
-     */
-    public ArrayList<String> getCasts () {
-        return this.casts;
+    public String toString () {
+        return "Movie: " + this.title;
     }
 }
